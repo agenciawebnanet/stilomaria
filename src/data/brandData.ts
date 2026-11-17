@@ -1,3 +1,19 @@
+import logoWhite from '../assets/stilo-maria/logo_header.png';
+import logoChampagne from '../assets/stilo-maria/logo_alt.png';
+import heroCoverWide from '../assets/stilo-maria/capasitebio.jpg';
+import heroPortrait from '../assets/stilo-maria/hero_alt.jpg';
+import thailaPhoto from '../assets/stilo-maria/thaila.webp';
+import marisaPhoto from '../assets/stilo-maria/marisa.png';
+import caamtPhoto from '../assets/stilo-maria/advogada.webp';
+import colorAnalysisPhoto from '../assets/stilo-maria/anapaulafortes.webp';
+import footerTexture from '../assets/stilo-maria/footer_bg.jpg';
+import googleBadge from '../assets/stilo-maria/group26.png';
+import rosangelaAvatar from '../assets/stilo-maria/reviews/rosangela.jpg';
+import catarinaAvatar from '../assets/stilo-maria/reviews/catarina.jpg';
+import tanielaAvatar from '../assets/stilo-maria/reviews/taniela.jpg';
+import yasmimAvatar from '../assets/stilo-maria/reviews/yasmim.jpg';
+import marciaAvatar from '../assets/stilo-maria/reviews/marcia.jpg';
+
 export interface ConsultantProfile {
   id: string;
   name: string;
@@ -18,16 +34,16 @@ export interface GoogleReview {
 }
 
 export const REAL_ASSETS = {
-  logoWhite: '/src/assets/stilo-maria/logo_header.png',
-  logoChampagne: '/src/assets/stilo-maria/logo_alt.png',
-  heroCoverWide: '/src/assets/stilo-maria/capasitebio.jpg',
-  heroPortrait: '/src/assets/stilo-maria/hero_alt.jpg',
-  thailaPhoto: '/src/assets/stilo-maria/thaila.webp',
-  marisaPhoto: '/src/assets/stilo-maria/marisa.png',
-  caamtPhoto: '/src/assets/stilo-maria/advogada.webp',
-  colorAnalysisPhoto: '/src/assets/stilo-maria/anapaulafortes.webp',
-  footerTexture: '/src/assets/stilo-maria/footer_bg.jpg',
-  googleBadge: '/src/assets/stilo-maria/group26.png',
+  logoWhite,
+  logoChampagne,
+  heroCoverWide,
+  heroPortrait,
+  thailaPhoto,
+  marisaPhoto,
+  caamtPhoto,
+  colorAnalysisPhoto,
+  footerTexture,
+  googleBadge,
 };
 
 export const BRAND_INFO = {
@@ -109,34 +125,34 @@ export const GOOGLE_REVIEWS: GoogleReview[] = [
     author: 'Rosangela Miranda',
     date: '28/05/2024',
     text: 'Muito bem atendida',
-    avatarSrc: '/src/assets/stilo-maria/reviews/rosangela.jpg',
+    avatarSrc: rosangelaAvatar,
   },
   {
     id: 'catarina',
     author: 'Catarina De Assumpcao',
     date: '09/03/2024',
     text: 'Atendimento excepcional! Peças selecionadas e diferentes! Enfim ameiiiiii! Parabéns!',
-    avatarSrc: '/src/assets/stilo-maria/reviews/catarina.jpg',
+    avatarSrc: catarinaAvatar,
   },
   {
     id: 'taniela',
     author: 'Taniela Carvalho',
     date: '21/02/2024',
     text: 'Experiência incrível, as meninas são maravilhosas… voltarei com certeza 🥰🥰',
-    avatarSrc: '/src/assets/stilo-maria/reviews/taniela.jpg',
+    avatarSrc: tanielaAvatar,
   },
   {
     id: 'yasmim',
     author: 'Yasmim Rangel',
     date: '17/02/2024',
     text: 'Amei',
-    avatarSrc: '/src/assets/stilo-maria/reviews/yasmim.jpg',
+    avatarSrc: yasmimAvatar,
   },
   {
     id: 'marcia',
     author: 'Marcia Cardoso',
     date: '16/02/2024',
     text: 'Excelente, amei vendedora maravilhosa',
-    avatarSrc: '/src/assets/stilo-maria/reviews/marcia.jpg',
+    avatarSrc: marciaAvatar,
   },
 ];
