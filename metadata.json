@@ -1,0 +1,6 @@
+{
+  "name": "Stilo Maria — Bio & Boutique",
+  "description": "Portal oficial da Stilo Maria em Cuiabá: atendimento via WhatsApp, alfaiataria feminina, análise de coloração pessoal e convênio CAAMT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
